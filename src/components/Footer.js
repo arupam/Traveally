@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TraveX
+              Travally
               <i class="fas fa-campground"></i>
             </Link>
           </div>
-          <small class='website-rights'>TraveX © 2021</small>
+          <small class='website-rights'>Travally © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
