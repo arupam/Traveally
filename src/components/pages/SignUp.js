@@ -1,6 +1,11 @@
 import React from 'react';
 import '../../App.css';
+import signup from '../signup';
 
 export default function SignUp() {
-  return <h1 className='sign-up'>Coming Soon! </h1>;
+  return (
+    <>
+      <signup/>
+    </>
+  );
 }
