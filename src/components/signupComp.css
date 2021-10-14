@@ -1,9 +1,11 @@
 
 .container-fluid{
-    padding-top: 7em;
-    background-color: beige;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+    background-color: beige;
+    
 }
 .form{
     width: 500px;

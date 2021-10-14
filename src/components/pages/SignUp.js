@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../App.css';
-import signup from '../signup';
+import SignUpComp from '../signupComp';
+
 
 export default function SignUp() {
   return (
     <>
-      <signup/>
+      <SignUpComp />
     </>
   );
 }
