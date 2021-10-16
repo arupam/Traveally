@@ -59,20 +59,19 @@ function Navbar() {
                 Packages
               </Link>
             </li>
-
-            
-
-            <li>
+            <li className='nav-item'>
               <Link
-                to='/sign-up'
-                className='nav-links-mobile'
+                to='/dashboard'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Account
               </Link>
             </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          <p>&nbsp</p>
+          {button && <Button buttonStyle='btn--user' destination='/dashboard'><i class="fa fa-user" aria-hidden="true"></i></Button>}
         </div>
       </nav>
     </>
