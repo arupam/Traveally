@@ -1,10 +1,12 @@
 import React from "react";
 import '../../App.css';
+import Sidebar from "../Sidebar";
 
 export default function Dashboard() {
     return (
         <>
-        <h1>dashboardie</h1>
+        <Sidebar/>
+        <h1>Dashboard</h1>
         </>
     )
 }

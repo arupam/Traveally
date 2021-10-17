@@ -9,7 +9,10 @@
 .services,
 .products,
 .sign-up,
-.dashboard {
+.dashboard,
+.trips,
+.blogs,
+.reviews {
   display: flex;
   height: 90vh;
   align-items: center;
