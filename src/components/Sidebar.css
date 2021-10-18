@@ -1,8 +1,8 @@
 .sidebar {
-    background-color: transparent;
-    width: 250px;
+    background-color: rgb(28, 27, 27);
     display: flex;
     margin: 0px;
+    padding: 10px;
     justify-content: start;
     align-items: center;
 }
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 10%;
+    top: 0;
     left: -100%;
     transition: 850ms;
 }

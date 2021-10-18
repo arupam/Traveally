@@ -32,7 +32,7 @@ function SignUpComp() {
                 <button type="submit" className="btn-signup"><i class="fas fa-arrow-right"></i></button>
 
                 <div className="signin-text">
-                    <p>Already have an account?   <a className="signin-btn" href="#"> &nbsp;  Sign in</a> </p>
+                    <p>Already have an account?   <a className="signin-btn" href="/login"> &nbsp;  Sign in</a> </p>
                 </div>
             </form>
         </div>

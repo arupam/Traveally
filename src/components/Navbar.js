@@ -59,15 +59,6 @@ function Navbar() {
                 Packages
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/dashboard'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Account
-              </Link>
-            </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
           <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>

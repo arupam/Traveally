@@ -1,6 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import Navbar from '../Navbar';
 
 export default function Products() {
-  return <h1 className='products'>Packages</h1>;
+  return (
+    <>
+      <Navbar />
+     <h1 className='products'>Packages</h1>;
+    </>
+  )
 }

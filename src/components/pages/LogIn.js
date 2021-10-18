@@ -1,13 +1,14 @@
 import React from 'react';
 import '../../App.css';
-import login from '../login';
+import Navbar from '../Navbar';
+import LoginComp from '../LoginComp';
 
-export default function LogIn() {
 
+export default function  LogIn() {
   return (
     <>
-      <login />
-      <Footer />
+      <Navbar />
+      <LoginComp />
     </>
   );
 }
