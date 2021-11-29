@@ -7,7 +7,7 @@ const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-const DEST = ['/sign-up','/dashboard'];
+const DEST = ['/sign-up','/dashboard2'];
 
 export const Button = ({
   children,

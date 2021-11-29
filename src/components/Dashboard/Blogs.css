@@ -1,0 +1,21 @@
+.cardContent {
+    background: transparent;
+    background-color: black;
+}
+
+.buttons {
+    padding-left: 50px;
+    color: rgb(168, 10, 71);
+}
+
+.one {
+    border-radius: 10px;
+    width: 500px;
+    height: 280px;
+}
+
+img {
+    width: 500px;
+    height: 280px;
+    object-fit: cover;
+}

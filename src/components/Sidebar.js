@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useRef, useState} from 'react'
 import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai'
 import { IconContext } from 'react-icons'
@@ -8,6 +8,23 @@ import './Sidebar.css'
 
 function Sidebar() {
     const [sidebar, setSidebar] = useState(false);
+    const accountRef = useRef()
+    const tripRef = useRef()
+    const blogRef = useRef()
+    const reviewRef = useRef()
+
+    function showAccount() {
+        accountRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+    function showTrips() {
+        tripRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+    function showBlogs() {
+        blogRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+    function showReviews() {
+        reviewRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
 
     const showSidebar = () => setSidebar(!sidebar);
     return (
@@ -26,16 +43,22 @@ function Sidebar() {
                             <AiIcons.AiOutlineClose/>
                         </Link>
                     </li>
-                    {SidebarData.map((item, index) => {
+                    <li className="sidebar-text">
+                        <Link to='/#'>
+                            <AiIcons.AiFillHome />
+                            <span>Home</span>
+                        </Link>
+                    </li>
+                    {/* {SidebarData.map((item, index) => {
                         return (
                             <li key={index} className={item.cName}>
-                                <Link to={item.path}>
+                                <Link onClick={item.path}>
                                     {item.icon}
                                     <span>{item.title}</span>
                                 </Link>
                             </li>
                         )
-                    })}
+                    })} */}
                 </ul>
             </nav>
             </IconContext.Provider>

@@ -1,0 +1,57 @@
+.tripBoxStyle{
+    box-shadow: 'none';
+    text-align: center;
+    color: #d32f2f;
+    padding: 50px;
+    background-color: #ffc2c2;
+    border-radius: 15px;
+}
+
+.flightBoxStyle{
+    box-shadow: 'none';
+    text-align: center;
+    color: #053e85;
+    padding: 50px;
+    background-color: #cae5f8;
+    border-radius: 15px;
+}
+
+.trainBoxStyle{
+    box-shadow: 'none';
+    text-align: center;
+    color: #7e1e8f;
+    padding: 50px;
+    background-color: #eed1f3;
+    border-radius: 15px;
+}
+
+.cabBoxStyle{
+    box-shadow: 'none';
+    text-align: center;
+    color: #1e7022;
+    padding: 50px;
+    background-color: #bdfac0;
+    border-radius: 15px;
+}
+
+.tripInfo{
+    border-radius: 15px;
+    background-color: #eee;
+}
+
+.tripID {
+    background-color: #ffc2c2;
+    border-radius: 15px 15px 0 0;
+    padding: 0 10px;    
+}
+
+.tripInfoBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tripInfoItems {
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 10px 20px;
+}

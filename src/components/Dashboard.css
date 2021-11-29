@@ -1,0 +1,23 @@
+.accountCard {
+    /* background-color: aquamarine;
+    width: '56.25%';
+    height: auto; */
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 12px 10px 12px;
+    box-shadow: -15px -15px 15px rgba(176, 169, 221, 0.496), 15px 15px 15px rgba(0,0,0,0.1);
+}
+
+.tripCard {
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 12px 10px 12px;
+    box-shadow: -15px -15px 15px rgba(216, 135, 146, 0.496), 15px 15px 15px rgba(0,0,0,0.1);
+}
+
+.blogCard {
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 12px 10px 12px;
+    box-shadow: -15px -15px 15px rgba(147, 255, 137, 0.496), 15px 15px 15px rgba(0,0,0,0.1);
+}

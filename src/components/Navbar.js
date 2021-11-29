@@ -62,7 +62,7 @@ function Navbar() {
           </ul>
           {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
           <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-          {button && <Button buttonStyle='btn--user' destination='/dashboard'><i class="fa fa-user" aria-hidden="true"></i></Button>}
+          {button && <Button buttonStyle='btn--user' destination='/dashboard2'><i class="fa fa-user" aria-hidden="true"></i></Button>}
         </div>
       </nav>
     </>

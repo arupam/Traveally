@@ -4,32 +4,26 @@ import * as AiIcons from 'react-icons/ai'
 
 export const SidebarData = [
     {
-        title: 'Home',
-        path: '/#',
-        icon: <AiIcons.AiFillHome />,
-        cName: 'sidebar-text'
-    },
-    {
         title: 'Account',
-        path: '/dashboard',
+        path: 'showAccount',
         icon: <FaIcons.FaUserShield />,
         cName: 'sidebar-text'
     },
     {
         title: 'Trips',
-        path: '/trips',
+        path: 'showTrips',
         icon: <FaIcons.FaCartPlus />,
         cName: 'sidebar-text'
     },
     {
         title: 'Blogs',
-        path: '/blogs',
+        path: 'showBlogs',
         icon: <FaIcons.FaEnvelopeOpenText />,
         cName: 'sidebar-text'
     },
     {
         title: 'Reviews',
-        path: '/reviews',
+        path: 'showReviews',
         icon: <AiIcons.AiFillStar />,
         cName: 'sidebar-text'
     },
