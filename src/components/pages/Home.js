@@ -4,6 +4,7 @@ import Cards from '../Cards';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Navbar from '../Navbar';
+import SignUpComp from '../signupComp';
 
 function Home() {
   return (
@@ -11,7 +12,10 @@ function Home() {
       <Navbar />
       <HeroSection />
       <Cards />
+      <SignUpComp />
       <Footer />
+
+
     </>
   );
 }

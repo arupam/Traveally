@@ -4,38 +4,59 @@ import './signupComp.css'
 
 function SignUpComp() {
     return (
-        <div className='container-signup'
-            style={{
-                backgroundImage: "url(" + "images/signupcover.png" + ")",
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
-            }} >
-
-            <h1> <strong> Create Account </strong> </h1>
-            <br></br>
-            <p>Make your travelling journey better with us!</p>
-
-            <form className="form" action="#">
-                <label className="username-text-signup" htmlFor="username"><i class="fas fa-user"></i> Username</label> <br />
-                <input type="text" className="form-control" id="username" required /> <br />
-                <label className="useremail-text-signup" htmlFor="useremail"><i class="fas fa-user"></i> Email</label> <br />
-                <input type="text" className="form-control" id="useremail" required /> <br />
-                <label className="userpw-text-signup" htmlFor="password"><i className="fa fa-lock" /> Password</label> <br />
-                <input type="text" className="form-control" id="password" required /> <br />
-                <label className="userpw-text-signup" htmlFor="confpassword"><i className="fa fa-lock" /> Confirm your password</label> <br />
-                <input type="text" className="form-control" id="confpassword" required /> <br /> 
-
-                <input type="checkbox" id="terms-signup" name="terms-signup" required />
-                <label htmlFor="terms-signup">&nbsp;  I have read and agree with Terms of Service and Privacy Policy</label><br></br>
-
-                <button type="submit" className="btn-signup"><i class="fas fa-arrow-right"></i></button>
-
-                <div className="signin-text">
-                    <p>Already have an account?   <a className="signin-btn" href="/login"> &nbsp;  Sign in</a> </p>
-                </div>
-            </form>
+        <section class="service-section py-5">
+        <div class="container">
+          <div class="row justify-content-center py-3">
+            <div class="col-md-8 col-12 text-center">
+              <p class="service-main-heading">Features</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-12">
+              <div class="icon-box">
+                <i class="fa fa-briefcase service-icon"></i>
+                <p class="service-title"><a href="#">Lorem Ipsum</a></p>
+                <p class="service-para">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-12 mt-4 mt-md-0">
+              <div class="icon-box">
+                <i class="fa fa-clipboard service-icon"></i>
+                <p class="service-title"><a href="#">Dolor Sitema</a></p>
+                <p class="service-para">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-12 mt-4 mt-md-0">
+              <div class="icon-box">
+                <i class="fa fa-chart-bar service-icon"></i>
+                <p class="service-title"><a href="#">Sed ut perspiciatis</a></p>
+                <p class="service-para">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-12 mt-4 mt-md-0">
+              <div class="icon-box">
+                <i class="fa fa-binoculars service-icon"></i>
+                <p class="service-title"><a href="#">Nemo Enim</a></p>
+                <p class="service-para">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-12 mt-4 mt-md-0">
+              <div class="icon-box">
+                <i class="fa fa-cog service-icon"></i>
+                <p class="service-title"><a href="#">Magni Dolore</a></p>
+                <p class="service-para">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-12 mt-4 mt-md-0">
+              <div class="icon-box">
+                <i class="fa fa-calendar-alt service-icon"></i>
+                <p class="service-title"><a href="#">Eiusmod Tempor</a></p>
+                <p class="service-para">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
     );
 }
 

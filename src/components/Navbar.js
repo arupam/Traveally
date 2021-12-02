@@ -50,19 +50,7 @@ function Navbar() {
                 Services
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Packages
-              </Link>
-            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-          {button && <Button buttonStyle='btn--user' destination='/dashboard2'><i class="fa fa-user" aria-hidden="true"></i></Button>}
         </div>
       </nav>
     </>
