@@ -21,14 +21,14 @@ function HeroSection() {
         >
           Get Started
         </Button>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
           Learn More! <i className='far fa-play-circle' />
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

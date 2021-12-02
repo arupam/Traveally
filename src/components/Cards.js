@@ -50,19 +50,19 @@ function Cards() {
           <ul className='cards__items'>
             <ReviewItem
             src='/images/user1.jpg'
-            path='/sign-up'
+            path='/#'
             text='"I think this is the best traveler service I have ever tried and I recommend it to you"'
             name='Jenny Wilson'
             />
             <ReviewItem
             src='/images/user2.jpg'
-            path='/sign-up'
+            path='/#'
             text='"Thanks to TravAlly I can now realize my dream of traveling around the world"'
             name='Sarah Williams'
             />
             <ReviewItem
             src='/images/user3.jpg'
-            path='/sign-up'
+            path='/#'
             text='"TravAlly helps me a lot in finding interesting tourist destinations"'
             name='Scott Carter'
             />

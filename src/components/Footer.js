@@ -39,17 +39,19 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          {/* <div class='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Influencer</Link>
-          </div>
+          </div> */}
           <div class='footer-link-items'>
             <h2>Socials</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+              <a href="https://www.instagram.com/travally.live/" target="_blank">
+              Instagram
+              </a>
+            {/* <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/'>Twitter</Link> */}
           </div>
         </div>
       </div>
@@ -63,7 +65,7 @@ function Footer() {
           </div>
           <small class='website-rights'>Travally © 2021</small>
           <div class='social-icons'>
-            <Link
+            {/* <Link
               class='social-icon-link facebook'
               to='/'
               target='_blank'
@@ -78,8 +80,11 @@ function Footer() {
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            </Link> */}
+            <a href="https://www.instagram.com/travally.live/" target="_blank" className='social-icon-link instagram' aria-label='Instagram'>
+            <i class='fab fa-instagram' />
+            </a>
+            {/* <Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
@@ -102,7 +107,7 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

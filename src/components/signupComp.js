@@ -21,18 +21,18 @@ function SignUpComp() {
         <div className="box" id="red">
           <h3>Attractions</h3>
           <p>
-            Scans our talent network to create the optimal team for your project
+          Identifies famous sightseeing attractions around you to enrich your experience in the city you wish to travel
           </p>
           
         </div>
         <div className="box" id="blue">
-          <h3>Calculator</h3>
-          <p>Uses data from past projects to provide better delivery estimates</p>
+          <h3>Hotels</h3>
+          <p>Travally identifies the best hotels around you to make your stay more comfortable. You can select your hotel based on its rating</p>
           
         </div>
         <div className="box" id="orange">
-          <h3>Karma</h3>
-          <p>Regularly evaluates our talent to ensure quality</p>
+          <h3>Rating</h3>
+          <p>Travally redirects to the website of the option you've chosen. This would help you decide better</p>
           
         </div>
       </div>
