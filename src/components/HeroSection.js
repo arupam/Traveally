@@ -14,6 +14,10 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href='https://travallyapp.netlify.app/';
+            }}
         >
           Get Started
         </Button>
