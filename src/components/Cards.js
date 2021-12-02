@@ -43,7 +43,10 @@ function Cards() {
               path='/sign-up'
             />
           </ul>
-          <br/> <hr /> <br/>
+          <br/> <hr /> <br/> <br/> <br/>
+          <h1 id="light-font">Testimonials</h1>
+          <h1 id="dark-font">Look what our users say!</h1>
+          <br/>
           <ul className='cards__items'>
             <ReviewItem
             src='/images/user1.jpg'

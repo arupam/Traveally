@@ -16,6 +16,17 @@ h1 {
   margin: 0 auto;
 }
 
+#light-font {
+  font-weight: 200;
+  color: var(--very-dark-blue);
+}
+
+#dark-font {
+  font-weight: 600;
+  color: var(--very-dark-blue);
+}
+
+
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
