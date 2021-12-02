@@ -7,20 +7,19 @@ function SignUpComp() {
       <div>
       <header>
         <h1 id="light-font">Reliable, efficient delivery</h1>
-        <h1 id="dark-font">Powered by Technology</h1>
+        <h1 id="dark-font">Powered by Latest Technologies</h1>
         <p>
-          Our Artificial Intelligence powered tools use millions of project data
-          points to ensure that your project is successful
+          Travally is powered by one of the most Efficient, Trending and Powerful APIs present in the market. 
         </p>
       </header>
       <div className="container">
         <div className="box" id="cyan">
-          <h3>Supervisor</h3>
-          <p>Monitors activity to identify project roadblocks</p>
+          <h3>Restaurants</h3>
+          <p>Identifies the curated and best Restaurants so that you can have best food and experience.</p>
           
         </div>
         <div className="box" id="red">
-          <h3>Team Builder</h3>
+          <h3>Attractions</h3>
           <p>
             Scans our talent network to create the optimal team for your project
           </p>
